@@ -10,7 +10,7 @@ Follow these steps to add the YouTube Debloater extension to Chrome:
 
    - Clone the repository using Git:
      ```sh
-     git clone https://github.com/your-username/youtube-debloater.git
+     git clone https://github.com/jedrzejratajczak/yt-debloater.git
      ```
    - Or download the repository as a ZIP file and extract it.
 
