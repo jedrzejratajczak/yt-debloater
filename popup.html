@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Debloater</title>
+    <style>
+      body {
+        width: 200px;
+        font-family: monospace;
+        color: white;
+        border: 2px solid white;
+        background: #101d2c;
+        padding: 10px;
+        margin: 0;
+        outline: none;
+      }
+
+      .title {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 10px 0;
+      }
+
+      .toggle {
+        width: 100%;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        background: #101d2c;
+        border: none;
+        color: white;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .toggle span {
+        width: 50%;
+        border: 1px solid #213b58;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+      }
+
+      .toggle span.selected {
+        background-color: #213b58;
+      }
+
+      .toggle span:not(.selected):hover {
+        background-color: #192c42;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">YouTube Debloater</h1>
+    <div id="toggle" class="toggle">
+      <span id="enable" class="selected">Enable</span>
+      <span id="disable">Disable</span>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
